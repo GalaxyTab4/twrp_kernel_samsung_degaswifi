@@ -1205,7 +1205,7 @@ void _print_VIDMEM_by_pid(
 
     for(i = 0 ; i < gcvSURF_NUM_TYPES; i++)
     {
-        if(size[i] >= 1024)
+        if(size[i] >= 1032)
         {
             gcmkPRINT("-- type %2d: %-16s, size %d KB \n", i, _gc_VIDMEM_type_name[i], size[i]/1024);
         }
